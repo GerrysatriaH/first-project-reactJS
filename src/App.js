@@ -1,8 +1,13 @@
+import React from 'react';
+import Header from './Header';
+import Navbar from './Navbar';
+
 function App() {
   return (
     <div className="App">
-      <h2>Hello World</h2>
-      <p>Gerry Satria Halim</p>
+      <Navbar />
+      <Header />
+      <h2>Ini Body</h2>
     </div>
   );
 }

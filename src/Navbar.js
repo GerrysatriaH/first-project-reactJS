@@ -5,7 +5,12 @@ import React from 'react'
 export default function navbar() {
   return (
     <div>
-        <h2>Ini Navbar</h2>
+        <h2>NationalLibrary</h2>
+        <ul>
+          <li>Home</li>
+          <li>Booklist</li>
+          <li>Bookshelf</li>
+        </ul>
     </div>
   )
 }

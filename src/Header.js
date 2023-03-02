@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 
-export default function Header() {
+function Header(props) {
   return (
-    <div>
-        <h2>Header</h2>
+    <div className="card">
+      <p className="title">{props.name}</p>
+      <p className="content">{props.job}</p>
     </div>
   )
 }
+
+export default Header;

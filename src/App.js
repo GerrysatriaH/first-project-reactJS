@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
-      <h2>Halo, Gerry</h2>
+      <Header name="Gerry" job="IT Dev"/>
       <button>Login</button>
     </div>
   );

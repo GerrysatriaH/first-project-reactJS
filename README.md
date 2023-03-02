@@ -1,6 +1,1 @@
-# Unknown Project
-
-Project created with
-- React JS
-- Tailwind CSS
-- Laravel
+# First Project With React JS

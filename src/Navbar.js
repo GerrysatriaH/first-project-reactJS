@@ -1,10 +1,10 @@
 import React from 'react'
 
-// Function Component
+import './App.css';
 
 export default function navbar() {
   return (
-    <div>
+    <div className='navbar'>
         <h2>NationalLibrary</h2>
         <ul>
           <li>Home</li>
@@ -14,21 +14,3 @@ export default function navbar() {
     </div>
   )
 }
-
-// Class Component
-
-// import React, { Component } from 'react'
-// export default class navbar extends Component {
-//   render() {
-//     return (
-//       <div>navbar</div>
-//     )
-//   }
-// }
-
-// Arrow Function
-// export default const navbar = () => {
-//   return (
-//     <div>navbar</div>
-//   )
-// }

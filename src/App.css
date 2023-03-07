@@ -6,9 +6,20 @@
 }
 .navbar{
     display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
     justify-content: space-between;
     padding: 2rem 3rem;
     margin: 0 auto;
+}
+.container{
+    max-width: 72rem;
+    /* display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    margin: 0 auto; */
 }
 .navbar .logo{
     width: 134px;
@@ -33,10 +44,21 @@
     margin: 0 0.5rem;
     font-weight: 600;
 }
+.navbar form{
+    border: 2px solid black;
+    border-radius: 20px;
+}
 .navbar form input{
-    height: 1.5rem;
+    position: relative;
+    top: 3px;
+    left: 8px;
+    height: 1rem;
+    border: none;
 }
 .navbar form > button{
+    position: relative;
+    left: 30px;
+    top: 5px;
     background: none;
     border: none;
     cursor: pointer;

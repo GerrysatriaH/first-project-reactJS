@@ -15,7 +15,7 @@ export default function navbar() {
           <li className='menu'>Feeds</li>
         </ul>
         <form>
-          <input type="text"></input>
+          <input type="text" name="keyword" placeholder='Search Here'></input>
           <button>
             <img src={search} alt='search'></img>
           </button>

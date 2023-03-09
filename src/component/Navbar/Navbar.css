@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    max-width: 72rem;
+    border-bottom: 3px solid black;
+}
+.navbar .logo{
+    width: 134px;
+    height: 38px;
+    cursor: pointer;
+}
+.navbar .list-menu{
+    display: flex;
+    width: 379px;
+    height: 18px;
+    /* padding: 0.75rem 0; */
+    position: absolute;
+    width: 379px;
+    height: 18px;
+    left: 282px;
+    top: 44px;
+    cursor: pointer;
+}
+.navbar .menu{
+    list-style: none;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+    font-weight: 600;
+}
+.navbar form{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.navbar form input{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    height: 1rem;
+    width: 15rem;
+    border: none;
+}
+.navbar form input:focus{
+    outline: none;
+}
+.navbar form > button{
+    position: relative;
+    left: 30px;
+    top: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

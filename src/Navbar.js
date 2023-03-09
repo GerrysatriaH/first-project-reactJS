@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './App.css';
+import './component/Navbar/Navbar.css';
 import logo from './img/logo_ipusnas.png';
 import search from './img/search_icon.png';
 

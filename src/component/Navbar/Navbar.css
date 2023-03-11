@@ -36,22 +36,23 @@
 .navbar form{
     border: 2px solid black;
     border-radius: 20px;
+    width: 18rem;
 }
 .navbar form input{
     position: relative;
-    top: 3px;
+    top: 4px;
     left: 8px;
-    height: 1rem;
-    width: 15rem;
+    height: 1.25rem;
+    width: 14rem;
     border: none;
 }
-.navbar form input:focus{
+/* .navbar form input:focus{
     outline: none;
-}
+} */
 .navbar form > button{
     position: relative;
-    left: 30px;
-    top: 5px;
+    left: 1.5rem;
+    top: 8px;
     background: none;
     border: none;
     cursor: pointer;
